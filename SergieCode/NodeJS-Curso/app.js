@@ -1,0 +1,5 @@
+const fs = require('fs')
+const peoma = fs.readFileSync('poema.txt', 'utf-8')
+console.log(peoma)
+fs.writeFileSync('peoma2.txt', peoma)
+const path = require('path')
