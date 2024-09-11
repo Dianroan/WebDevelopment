@@ -1,0 +1,17 @@
+{
+  "name": "proyectonode",
+  "version": "0.0.1",
+  "description": "Ejemplo proyecto node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node app.js",
+    "build": "node app.js"
+  },
+  "author": "Dianroan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
